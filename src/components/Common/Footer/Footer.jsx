@@ -98,7 +98,7 @@ const Footer = () => {
         </Row>
         <Row className="py-2 bdr mt-3">
         <Col className="col copyright">
-        <p className="text-light">   @ 2024. rawatcoder All rights reserved </p> 
+        <p className="text-light">   @ 2024. Travel All rights reserved </p> 
         </Col>
         </Row>
 
