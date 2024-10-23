@@ -43,7 +43,7 @@ const Header = () => {
           <Navbar expand="lg" className="p-0">
             {/* Logo Section  */}
             <Navbar.Brand>
-              <NavLink to="/"> Weekendmonks</NavLink>
+              <NavLink to="/"> Travler</NavLink>
             </Navbar.Brand>
             {/* End Logo Section  */}
 
@@ -55,7 +55,7 @@ const Header = () => {
             >
               {/*mobile Logo Section  */}
               <Offcanvas.Header>
-                <h1 className="logo">Weekendmonks</h1>
+                <h1 className="logo">Travler</h1>
                 <span className="navbar-toggler ms-auto"  onClick={toggleMenu}>
                   <i className="bi bi-x-lg"></i>
                 </span>
@@ -67,13 +67,6 @@ const Header = () => {
                   <NavLink className="nav-link" to="/" >
                     Home
                   </NavLink>
-                  <NavLink className="nav-link" to="/" >
-                    ABOUT US
-                  </NavLink>
-                  <NavLink className="nav-link" to="/" >
-                    TOURS
-                  </NavLink>
-
                   <NavDropdown
                     title="DESTINATION"
                     id={`offcanvasNavbarDropdown-expand-lg`}
@@ -81,11 +74,16 @@ const Header = () => {
                    
                       
                     <NavLink className="nav-link text-dark" to="/" >
-                    SPAIN TOURS
+                    NAGPUR TOURS
                   </NavLink>
                   
                    
                   </NavDropdown>
+                  <NavLink className="nav-link" to="/" >
+                    TOURS
+                  </NavLink>
+
+                
                   <NavLink className="nav-link" to="/" >
                     GALLERY
                   </NavLink>
